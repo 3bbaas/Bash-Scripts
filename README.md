@@ -30,3 +30,4 @@
 | Bold         |  `\033[1m`|
 | Underline    |  `\033[4m`|
 | No underline | `\033[24m`|
+----
