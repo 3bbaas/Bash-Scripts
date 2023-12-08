@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #333;
+}
+
+h1{
+    color: #f4f4f4;
+}
+h2{
+    color: #c7c7c7;
+}
+
+.example-container {
+    margin-top: 20px;
+}
+
+code {
+    display: block;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #333;
+}
+
+.toggle-button {
+    cursor: pointer;
+    color: rgb(188, 216, 94);
+    border: none;
+    outline: none;
+    z-index: 2;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -20px;
+    transition: transform 0.3s ease-in-out;
+}
+.toggle-button.rotate-down {
+    transform: rotate(0deg);
+}
+
+.toggle-button.rotate-up {
+    transform: rotate(180deg);
+}
+.hidden {
+    display: none;
+}
+
+footer {
+    /* margin-top: 30px;
+     */
+     margin-top: 50vh;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.github-link {
+    color: #fff;
+    text-decoration: none;
+}
